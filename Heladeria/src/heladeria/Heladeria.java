@@ -5,6 +5,9 @@
  */
 package heladeria;
 
+import javax.swing.JFrame;
+import vista.frmPrincipal;
+
 /**
  *
  * @author alumno
@@ -16,6 +19,10 @@ public class Heladeria {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        frmPrincipal formulario = new frmPrincipal();
+        formulario.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        formulario.setVisible(true);
     }
     
 }
