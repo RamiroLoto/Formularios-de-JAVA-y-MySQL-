@@ -27,7 +27,9 @@ public class helado {
         this._idhelado = id;
         this._sabor = sabor;
     }    
-    public List<helado> retornarHelados() {
+    
+    
+    public static List<helado> retornarHelados() {
 
         List<helado> listado = new ArrayList<>();
         try {
