@@ -92,6 +92,9 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnListadoHeladoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListadoHeladoActionPerformed
         // TODO add your handling code here:
+        frmListadoHelados formulario = new frmListadoHelados();
+        PanelPrincipal.add(formulario);
+        formulario.setVisible(true);
     }//GEN-LAST:event_btnListadoHeladoActionPerformed
 
     /**
