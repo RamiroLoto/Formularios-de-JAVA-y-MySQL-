@@ -1,0 +1,14 @@
+git clone repo
+//
+git status
+// dentro del subdirectorio clonado 
+git add .
+
+git commit -m " heladeria mas comandos "
+
+
+// varios commit
+
+
+
+git push origin master -f
